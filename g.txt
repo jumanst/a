@@ -1,0 +1,23 @@
+https://www.yalco.kr/@git-github/1-1/
+1. git 설치                                       ( git은 github에 자료를 올리는 도구 )
+2. SourceTree 설치                                ( GUI > 전체적인 과정에 흐름을 보기 위해서)
+3. vscod Material Icon Theme 확장자 설치          ( 폴더명에 따라 다르게 )
+4. vscode에서 작업할 때 터미널에 2가지 설정         (bash, powershell)
+
+
+git config --global user.name jumanst                    # 깃에 정보를 올리는 저자 정보
+git config --global user.email a01030807509@gmail.com    # 깃에 정보를 올리는 저자 정보 이메일
+git config --global init.defaultBranch main              # 깃 브랜지명 정하기 (= main)
+
+
+# 터미널에 작성
+
+git init     # 터미널에 작성 : git 시작
+git status   # 현재 git의 상태를 확인
+
+.gitignore   # 제외 하고 싶은 파일을 적는 장소( 명령어가 아니고 파일 )
+
+git add {{파일 이름}}   # 특정한 파일을 추가할 때
+git add .              # 전체 파일 추가할 때
+
+git commit -m "FIRST COMMIT"    # 커밋 달기
